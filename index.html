@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Name Display</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Full Name Display</h1>
+    <form onsubmit="displayFullName(event)">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="fullNameDisplay"></p>
+</body>
+</html>
